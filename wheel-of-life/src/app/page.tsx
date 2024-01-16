@@ -1,3 +1,9 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Wheel Of Life",
+};
+
 export default function Home() {
   return (
     <main className="h-screen w-screen flex items-center justify-center bg-neutral-900">
